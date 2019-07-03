@@ -1,0 +1,77 @@
+/* import google font specs */
+
+@font-face{
+      font-family: 'Libre Franklin', sans-serif;
+      src: url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+}
+
+body {
+      font-family: 'Libre Franklin', sans-serif;
+}
+
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 95%;
+  width: 100%;
+  position: relative;
+}
+
+/* fix table header to top when table is scrolled*/
+.tableFixHead thead th {
+  position: sticky; 
+  top: 0; 
+}
+
+a:visited { 
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover { 
+  color: lightslategray;
+}
+
+.jumbotron {
+  background-image: url("../img/ham.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%
+}
+
+.col-12 {
+  padding-right: 0%;
+  padding-left: 0%
+}
+
+input[type=text], select {
+  width: 33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* tbody {
+    display: block;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
